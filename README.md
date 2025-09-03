@@ -46,4 +46,3 @@ learning-log/
 - Docker + PostgreSQL環境でDBと連携
 - pytestでAPIテストを追加
 - mini-kakeibo と連動させ、実用的な家計簿に発展
-
