@@ -1,0 +1,20 @@
+fastapi==0.116.*
+uvicorn[standard]==0.35.*
+pydantic>=2.7
+pytest==8.*
+httpx==0.28.*
+
+# このプロジェクトを動かすために必要なライブラリの一覧　
+# PyPl Pythonの公式パッケージリポジトリにてバージョン情報を持ってくる
+# 1) WebフレームワークのFastAPI
+# 2) W==や>=のような記号は、Pythonのパッケージ管理において、バージョンの互換性
+# pip freezeの使い方 マンドの出力結果を、そのままrequirements.txtに書き出すことが多い
+# [standard]ライブラリ名の後ろに**[]**extras（エクストラ）」と呼ばれ、特定の追加機能
+# 3) HTTPクライアントのhttpx
+# 4) テストフレームワークのpytest
+# 5) モックライブラリのhttpx
+# 6) テストフレームワークのpytest
+# 7) モックライブラリのhttpx
+# 8) テストフレームワークのpytest
+# 9) モックライブラリのhttpx
+# 10) テストフレームワークのpytest  
