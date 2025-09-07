@@ -1,0 +1,82 @@
+# Git関連
+.git
+.gitignore
+.gitattributes
+
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 仮想環境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS関連
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ログファイル
+*.log
+logs/
+
+# テスト関連
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ドキュメント
+README.md
+*.md
+docs/
+
+# その他
+.env
+.env.local
+.env.*.local
+*.tmp
+*.temp
+
+# .gitignoreとの違い
+; .gitignore
+; 目的: Gitで追跡しないファイルを指定
+; 対象: バージョン管理システム
+; 効果: リポジトリのサイズ削減
+; .dockerignore
+; 目的: Dockerビルドで除外するファイルを指定
+; 対象: Dockerビルドプロセス
+; 効果: ビルドコンテキストの最適化
